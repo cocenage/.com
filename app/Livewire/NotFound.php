@@ -4,10 +4,10 @@ namespace App\Livewire;
 
 use Livewire\Component;
 
-class PageSites extends Component
+class NotFound extends Component
 {
     public function render()
     {
-        return view('livewire.page-sites');
+        return view('livewire.not-found');
     }
 }

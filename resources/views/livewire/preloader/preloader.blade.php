@@ -1,4 +1,5 @@
-<div x-data="{
+<div class="">
+    <!-- <div x-data="{
         visible: false,
         init() {
             this.visible = true;
@@ -23,9 +24,10 @@
         }
     }"
     x-show="visible"
-    x-transition.opacity.duration.500ms
-    class="fixed inset-0 z-[9999]">
+    x-transition.opacity.duration.1000ms
+    class="absolute inset-0 z-[9999]">
     <video autoplay muted class="w-screen h-screen object-cover">
         <source src="{{ asset('videos/preloader.mp4') }}" type="video/mp4">
     </video>
+</div> -->
 </div>
