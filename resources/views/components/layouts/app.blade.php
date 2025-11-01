@@ -9,8 +9,10 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body>
+<body class="max-w-2xl mx-auto pt-[80px] py-[48px] pb-[48px]">
+    <livewire:partials.header />
     {{ $slot }}
+    <livewire:partials.footer />
 </body>
 
 </html>
