@@ -1,4 +1,4 @@
-<header>
+<header class="pt-[80px]">
     <a href="/" wire:navigate>
         <span class="text-[18px] text-black font-medium">Глеб Cocenage</span>
     </a>

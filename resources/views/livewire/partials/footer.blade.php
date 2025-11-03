@@ -1,4 +1,4 @@
-<footer>
+<footer class="py-[40px]">
     <div class="flex items-center justify-between">
         <span class="text-[14px] text-[#525252] cursor-default">© 2025</span>
         <div class="flex gap-[24px]">
