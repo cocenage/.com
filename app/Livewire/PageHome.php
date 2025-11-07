@@ -11,21 +11,23 @@ class PageHome extends Component
 
     public function mount()
     {
-        // сюда подставь свои данные / из БД
         $this->slides = [
             [
                 'title' => 'Сайты',
                 'image' => asset('images/test.png'),
+                'type' => 'sites',
                 'url' => route('page.sites'),
             ],
             [
                 'title' => 'Постеры',
-                'image' => asset('images/test2.jpg'),
+                'image' => asset('images/poster.png'),
+                'type' => 'poster',
                 'url' => route('page.posters'),
             ],
             [
                 'title' => 'Про меня',
-                'image' => asset('images/test3.jpg'),
+                'image' => asset('images/about.png'),
+                'type' => 'about',
                 'url' => route('page.about'),
             ],
         ];
@@ -46,6 +48,7 @@ class PageHome extends Component
     {
         $this->setSlide($this->active - 1);
     }
+
     public function render()
     {
         return view('livewire.page-home');

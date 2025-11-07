@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
-<body class="h-screen flex flex-col justify-between max-w-2xl mx-auto px-[48px]">
+<body class="h-screen flex flex-col max-w-2xl mx-auto">
     <livewire:partials.header />
     {{ $slot }}
     <livewire:partials.footer />

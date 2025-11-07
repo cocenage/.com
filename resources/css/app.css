@@ -1,16 +1,35 @@
 @import 'tailwindcss';
 
-html{
-    overflow: hidden;
+@font-face {
+  font-family: "Inter";
+  src: url("/resources/fonts/Inter-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
 }
 
-h1{
+@font-face {
+  font-family: "Inter";
+  src: url("/resources/fonts/Inter-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+    overflow: hidden;
+    background-color: #F5F5F5;
+    font-family: "Inter", system-ui, sans-serif;
+    ::selection { background-color: #e6e6e6; }
+}
+
+h1 {
     font-size: 16px;
     font-weight: 500;
     color: black;
 }
 
-p{
+p {
     font-size: 16px;
     color: #525252;
 }
